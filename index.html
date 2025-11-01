@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Peruth Arishaba - Full-Stack Software Developer specializing in Python/Django, React, and building scalable web applications. Available for internships and collaborations.">
+    <meta name="keywords" content="Full-Stack Developer, Python Developer, Django, React, Software Engineer, Web Development">
+    <meta name="author" content="Peruth Arishaba">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Peruth Arishaba - Full-Stack Software Developer">
+    <meta property="og:description" content="Full-Stack Software Developer focusing on impact and scalability with expertise in Python/Django and React.">
+    <meta property="og:url" content="https://github.com/Arishaba-Peruth">
+
+    <title>Peruth Arishaba - Full-Stack Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -11,30 +21,105 @@
     <!-- Header -->
     <header>
         <nav class="navbar">
-            <div class="logo">PERUTH</div>
+            <div class="logo">PERUTH ARISHABA</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-background-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
         <div class="hero-content">
             <div class="hero-text">
-                <br><br><br><h1>Hi, I'm <span class="typing-text">PERUTH ARISHABA</span></h1>
-                <h3 class="title">Backend Developer</h3>
-                <p class="description">
-                    I develop and build things for the web and as well as solve <br>real-world problems.</p>
-                <a href="#contact" class="cta-button">Get in Touch</a>
+                <div class="greeting-badge">
+                    <span class="wave">👋</span>
+                    <span>Hello, I'm</span>
+                </div>
+                <h1 class="hero-name">PERUTH ARISHABA</h1>
+                <div class="role-container">
+                    <span class="role-prefix">I'm a</span>
+                    <span class="dynamic-role">Full-Stack Developer</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about building <span class="highlight">scalable web applications</span> using Python/Django and modern JavaScript frameworks.
+                    I transform complex problems into elegant, maintainable solutions.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Years Coding</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Committed</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button primary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="cta-button secondary">
+                        <span>View Projects</span>
+                        <i class="fas fa-briefcase"></i>
+                    </a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="https://github.com/Arishaba-Peruth" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/peruth-arishaba-19a3082b3/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:lorisperutha@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
             </div>
-            <div class="hero-image">
-                <img src="lk2.jpg" alt="Peruth Arishaba">
+            <div class="hero-image-container">
+                <div class="image-decoration decoration-1"></div>
+                <div class="image-decoration decoration-2"></div>
+                <div class="hero-image-wrapper">
+                    <img src="lkdin.jpg" alt="Peruth Arishaba - Full-Stack Developer" class="hero-profile-image">
+                    <div class="image-border"></div>
+                </div>
+                <div class="floating-badge badge-1">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fas fa-database"></i>
+                    <span>Database</span>
+                </div>
             </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
         </div>
     </section>
 
@@ -43,57 +128,157 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm a passionate and detail-oriented software engineer with a solid foundation in Python and core software engineering principles. Recently completed a certificate in Software Engineering with Python, equipping me with practical skills in backend development, database integration, version control (Git/GitHub), and building web applications</p>
-                <p>With a strong foundation in both front-end and back-end development, I strive to create meaningful and impactful digital experiences.</p>
+                <p>I'm a passionate Full-Stack Software Developer with a strong foundation in Python and modern web technologies. Currently an apprentice under an intensive full-stack bootcamp, specializing in building robust and efficient applications using the Python/Django ecosystem and modern JavaScript frameworks including React and React Native.</p>
+                <p>I thrive on translating real-world problems into elegant, maintainable code. With expertise in both front-end and back-end development, RESTful API design, and cloud deployment (AWS/Azure/Digital Ocean), I focus on creating scalable solutions that drive impact.</p>
+                <p>My approach combines technical excellence with Agile methodologies - I organize my work using Scrum sprints, prioritizing tasks and managing scope effectively to deliver quality software on time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Current Work & Experience</h2>
+        <div class="experience-container">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <h3>Farm Management System Developer</h3>
+                    <span class="experience-duration">Current Project</span>
+                </div>
+                <h4 class="company">Rugyeyo Farm</h4>
+                <div class="experience-description">
+                    <p>Developing a comprehensive Farm Management mobile app system including:</p>
+                    <ul>
+                        <li>Public-facing website and knowledge hub for agricultural information sharing</li>
+                        <li>Core operational modules: Wages Management, Sales Tracking, and Inventory Control</li>
+                        <li>RESTful API development using Django REST Framework</li>
+                        <li>React Native mobile application for on-field farm management</li>
+                        <li>Cloud deployment architecture using AWS/Azure/Digital Ocean</li>
+                        <li>Database design and optimization for scalable data management</li>
+                    </ul>
+                </div>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">React Native</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">Cloud Deployment</span>
+                </div>
+            </div>
+
+            <div class="looking-for">
+                <h3><i class="fas fa-handshake"></i> Open to Opportunities</h3>
+                <p>I'm actively seeking internship opportunities and open-source collaborations where I can apply my skills and continue learning. Particularly interested in:</p>
+                <ul>
+                    <li>Full-stack development roles (Python/Django + React)</li>
+                    <li>Backend API development projects</li>
+                    <li>Mobile development with React Native</li>
+                    <li>Open-source contributions in web technologies</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <h2 class="section-title">Skills</h2>
+        <h2 class="section-title">Technical Skills</h2>
         <div class="skills-grid">
             <div class="skill-card">
-                <i class="fas fa-code"></i>
-                <h3>Frontend</h3>
-                <p>HTML, CSS, JavaScript, React</p>
+                <i class="fab fa-python"></i>
+                <h3>Backend Development</h3>
+                <p>Python, Django, Django REST Framework, Flask</p>
             </div>
             <div class="skill-card">
-                <i class="fas fa-server"></i>
-                <h3>Backend</h3>
-                <p>Python, Django Framework</p>
+                <i class="fab fa-react"></i>
+                <h3>Frontend Development</h3>
+                <p>HTML5, CSS3, JavaScript (ES6+), React, React Native</p>
             </div>
             <div class="skill-card">
                 <i class="fas fa-database"></i>
-                <h3>Database</h3>
-                <p>PostgreSQL, SQLite</p>
+                <h3>Database & Data</h3>
+                <p>PostgreSQL, SQLite, MySQL, Database Design, SQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud & DevOps</h3>
+                <p>AWS, Azure, Digital Ocean, Docker, CI/CD</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code-branch"></i>
+                <h3>Version Control</h3>
+                <p>Git, GitHub, GitLab, Collaborative Development</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-network-wired"></i>
+                <h3>API Development</h3>
+                <p>RESTful APIs, API Design, Authentication, Testing</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-tasks"></i>
+                <h3>Methodologies</h3>
+                <p>Agile, Scrum, Sprint Planning, Test-Driven Development</p>
             </div>
             <div class="skill-card">
                 <i class="fas fa-tools"></i>
-                <h3>Tools</h3>
-                <p>Git, VS Code, Docker</p>
+                <h3>Tools & Editors</h3>
+                <p>VS Code, PyCharm, Postman, npm, pip</p>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
-            <div class="project-card">
-                <h3>Project One</h3>
-                <p>Nuru Yangu CBO Website: Developed a web presence for "Nuru Yangu," a community-based organization, to showcase their mission, projects, and impact within the community.</p>
+            <div class="project-card featured">
+                <h3>Farm Management System</h3>
+                <p>A comprehensive mobile and web application for Rugyeyo Farm that streamlines farm operations through digital solutions. Features include inventory tracking, sales management, wage calculation, and a knowledge hub for agricultural best practices.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">Django</span>
+                    <span class="tech-badge">React Native</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                    <span class="tech-badge">REST API</span>
+                    <span class="tech-badge">Cloud Hosting</span>
+                </div>
                 <div class="project-links">
-                    <a href="https://github.com/Arishaba-Peruth/Nuru_Yangu_Draftproject.git" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://arishaba-peruth.github.io/Nuru_Yangu_Draftproject/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="https://github.com/Arishaba-Peruth" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
                 </div>
             </div>
+
             <div class="project-card">
-                <h3>Project Two</h3>
-                <p>A brief description of your second project goes here.</p>
+                <h3>Nuru Yangu CBO Website</h3>
+                <p>Developed a professional web presence for "Nuru Yangu," a community-based organization. The website showcases their mission, ongoing projects, and community impact, providing an accessible platform for stakeholders to learn about their work.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Responsive Design</span>
+                </div>
                 <div class="project-links">
-                    <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="https://github.com/Arishaba-Peruth/Nuru_Yangu_Draftproject.git" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://arishaba-peruth.github.io/Nuru_Yangu_Draftproject/" class="project-link" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>More Projects Coming Soon</h3>
+                <p>I'm continuously working on new projects and contributing to open-source. Check out my GitHub profile for the latest updates and code samples demonstrating my skills in full-stack development.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Django</span>
+                    <span class="tech-badge">React</span>
+                    <span class="tech-badge">PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Arishaba-Peruth" class="project-link" target="_blank">
+                        <i class="fab fa-github"></i> View GitHub Profile
+                    </a>
                 </div>
             </div>
         </div>
@@ -122,7 +307,80 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Peruth Arishaba. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Peruth Arishaba. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/Arishaba-Peruth" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/peruth-arishaba-19a3082b3/" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:lorisperutha@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            });
+
+            // Close menu when clicking on a link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    const icon = mobileMenuToggle.querySelector('i');
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                });
+            });
+        }
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(26, 26, 46, 0.98)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                header.style.background = '#1a1a2e';
+                header.style.backdropFilter = 'none';
+            }
+        });
+
+        // Smooth reveal animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections and cards
+        document.querySelectorAll('section, .skill-card, .project-card, .experience-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
