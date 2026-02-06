@@ -22,12 +22,11 @@
     <header>
         <nav class="navbar">
             <a href="#home" class="logo-link">
-                <div class="logo">Peruth<span class="dev-dot">.dev</span></div>
+                <div class="logo">PA.dev<span class="dev-dot">.dev</span></div>
             </a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -48,7 +47,9 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1 class="hero-name">Peruth Arishaba</h1>
-                <p class="hero-title">Full-Stack Developer</p>
+                <p class="hero-title">
+                    Full-Stack Developer<span class="typing-cursor"></span>
+                </p>
                 <p class="hero-description">
                     I craft elegant digital experiences by combining <span class="highlight">clean code</span> with <span class="highlight">beautiful design</span>. With hands-on experience building scalable applications using Python/Django and React, I transform ideas into <span class="highlight">user-centric solutions</span> that drive real impact.
                 </p>
@@ -59,7 +60,7 @@
                     </div>
                     <div class="stat-divider"></div>
                     <div class="stat-item">
-                        <div class="stat-number">15+</div>
+                        <div class="stat-number">7+</div>
                         <div class="stat-label">Projects Delivered</div>
                     </div>
                     <div class="stat-divider"></div>
@@ -72,6 +73,10 @@
                     <a href="#contact" class="cta-button primary">
                         <span>Let's Connect</span>
                         <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="cta-button secondary">
+                        <span>See My Work</span>
+                        <i class="fas fa-briefcase"></i>
                     </a>
                 </div>
                 <div class="social-links-hero">
@@ -90,7 +95,7 @@
                 <div class="image-decoration decoration-1"></div>
                 <div class="image-decoration decoration-2"></div>
                 <div class="hero-image-wrapper">
-                    <img src="lkdin.jpg" alt="Peruth Arishaba - Full-Stack Developer" class="hero-profile-image">
+                    <img src="prof.jpeg" alt="Peruth Arishaba - Full-Stack Developer" class="hero-profile-image">
                     <div class="image-border"></div>
                 </div>
                 <div class="floating-badge badge-1">
@@ -117,61 +122,60 @@
     <section id="about" class="about">
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
-            <div class="about-text">
-                <p>I'm a passionate Full-Stack Software Developer with a strong foundation in Python and modern web technologies. Currently an apprentice under an intensive full-stack bootcamp, specializing in building robust and efficient applications using the Python/Django ecosystem and modern JavaScript frameworks including React and React Native.</p>
-                <p>I thrive on translating real-world problems into elegant, maintainable code. With expertise in both front-end and back-end development, RESTful API design, and cloud deployment (AWS/Azure/Digital Ocean), I focus on creating scalable solutions that drive impact.</p>
-                <p>My approach combines technical excellence with Agile methodologies - I organize my work using Scrum sprints, prioritizing tasks and managing scope effectively to deliver quality software on time.</p>
+            <div class="about-grid">
+                <div class="about-image-column">
+                    <div class="about-image-wrapper">
+                        <img src="prof.jpeg" alt="Peruth Arishaba" class="about-profile-image">
+                        <div class="about-image-overlay"></div>
+                        <div class="experience-badge">
+                            <span class="badge-number">2+</span>
+                            <span class="badge-text">Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text-column">
+                    <div class="about-intro">
+                        <h3 class="about-heading">Software Developer & Problem Solver</h3>
+                        <p class="about-description">I'm a full-stack software developer specializing in both web and mobile application development. I enjoy building scalable, user-focused solutions using modern technologies and clean, efficient code. I enjoy working across the entire development stack to turn ideas into reliable digital products.</p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full Stack Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile App Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Project Management</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-database"></i>
+                            <span>API & Database Design</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#projects" class="cta-button primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="cta-button secondary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <h2 class="section-title">Current Work & Experience</h2>
-        <div class="experience-container">
-            <div class="experience-card">
-                <div class="experience-header">
-                    <h3>Farm Management System Developer</h3>
-                    <span class="experience-duration">Current Project</span>
-                </div>
-                <h4 class="company">Rugyeyo Farm</h4>
-                <div class="experience-description">
-                    <p>Developing a comprehensive Farm Management mobile app system including:</p>
-                    <ul>
-                        <li>Public-facing website and knowledge hub for agricultural information sharing</li>
-                        <li>Core operational modules: Wages Management, Sales Tracking, and Inventory Control</li>
-                        <li>RESTful API development using Django REST Framework</li>
-                        <li>React Native mobile application for on-field farm management</li>
-                        <li>Cloud deployment architecture using AWS/Azure/Digital Ocean</li>
-                        <li>Database design and optimization for scalable data management</li>
-                    </ul>
-                </div>
-                <div class="tech-stack">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Django</span>
-                    <span class="tech-tag">React Native</span>
-                    <span class="tech-tag">PostgreSQL</span>
-                    <span class="tech-tag">REST API</span>
-                    <span class="tech-tag">Cloud Deployment</span>
-                </div>
-            </div>
-
-            <div class="looking-for">
-                <h3><i class="fas fa-handshake"></i> Open to Opportunities</h3>
-                <p>I'm actively seeking internship opportunities and open-source collaborations where I can apply my skills and continue learning. Particularly interested in:</p>
-                <ul>
-                    <li>Full-stack development roles (Python/Django + React)</li>
-                    <li>Backend API development projects</li>
-                    <li>Mobile development with React Native</li>
-                    <li>Open-source contributions in web technologies</li>
-                </ul>
-            </div>
-        </div>
     </section>
-
-    <!-- Skills Section -->
     <section id="skills" class="skills">
-        <h2 class="section-title">Technical Skills</h2>
+        <h2 class="section-title">Skills & Technologies</h2>
         <div class="skills-grid">
             <div class="skill-card">
                 <i class="fab fa-python"></i>
@@ -191,7 +195,7 @@
             <div class="skill-card">
                 <i class="fas fa-cloud"></i>
                 <h3>Cloud & DevOps</h3>
-                <p>AWS, Azure, Digital Ocean, Docker, CI/CD</p>
+                <p>Digital Ocean, Docker, Render, Expo Go, CI/CD</p>
             </div>
             <div class="skill-card">
                 <i class="fas fa-code-branch"></i>
@@ -211,7 +215,7 @@
             <div class="skill-card">
                 <i class="fas fa-tools"></i>
                 <h3>Tools & Editors</h3>
-                <p>VS Code, Postman</p>
+                <p>VS Code, Postman, Strapi CMS</p>
             </div>
         </div>
     </section>
@@ -219,46 +223,70 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
+        <div class="projects-list">
+            <!-- Featured Rugyeyo Projects -->
             <div class="project-card featured">
                 <div class="project-image">
-                    <img src="app.jpg" alt="Rugyeyo Farm Management App Landing Page">
+                    <img src="mobile.jpeg" alt="Rugyeyo Farm Management System">
                 </div>
-                <h3>Farm Management System</h3>
-                <p>A comprehensive mobile and web application for Rugyeyo Farm that streamlines farm operations through digital solutions. Features include inventory tracking, sales management, wage calculation, and a knowledge hub for agricultural best practices.</p>
-                <div class="project-tech">
-                    <span class="tech-badge">Django</span>
-                    <span class="tech-badge">React Native</span>
-                    <span class="tech-badge">PostgreSQL</span>
-                    <span class="tech-badge">REST API</span>
-                    <span class="tech-badge">Cloud Hosting</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/Arishaba-Peruth" class="project-link" target="_blank">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
+                <div class="project-content">
+                    <h3>Rugyeyo Farm Management System</h3>
+                    <p>A comprehensive mobile application for Rugyeyo Farm that streamlines farm operations. Features inventory tracking, sales management, wage calculation, and a knowledge hub for agricultural best practices.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">React Native</span>
+                        <span class="tech-badge">Django</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">REST API</span>
+                    </div>
                 </div>
             </div>
 
+            <div class="project-card featured">
+                <div class="project-image">
+                    <img src="webapp.jpeg" alt="Rugyeyo Financial Web Application">
+                </div>
+                <div class="project-content">
+                    <h3>Rugyeyo Financial Web Application</h3>
+                    <p>A powerful web application for managing farm finances. Handles sales tracking, employee wages, expenses management, and provides detailed financial reports and analytics.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">React Vite</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Django</span>
+                        <span class="tech-badge">Tailwind</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card featured">
+                <div class="project-image">
+                    <img src="website.jpeg" alt="Rugyeyo Farm Public Website">
+                </div>
+                <div class="project-content">
+                    <h3>Rugyeyo Farm Public Website</h3>
+                    <p>A professional public-facing website for Rugyeyo Farm. Showcases farm products, services, and agricultural knowledge. Features responsive design and engaging user experience.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Strapi</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Django</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Projects -->
             <div class="project-card">
                 <div class="project-image">
                     <img src="image.png" alt="Nuru Yangu CBO Website Landing Page">
                 </div>
-                <h3>Nuru Yangu CBO Website</h3>
-                <p>Developed a professional web presence for "Nuru Yangu," a community-based organization. The website showcases their mission, ongoing projects, and community impact, providing an accessible platform for stakeholders to learn about their work.</p>
-                <div class="project-tech">
-                    <span class="tech-badge">HTML5</span>
-                    <span class="tech-badge">CSS3</span>
-                    <span class="tech-badge">JavaScript</span>
-                    <span class="tech-badge">Responsive Design</span>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/Arishaba-Peruth/Nuru_Yangu_Draftproject.git" class="project-link" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="https://arishaba-peruth.github.io/Nuru_Yangu_Draftproject/" class="project-link" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> Live Demo
-                    </a>
+                <div class="project-content">
+                    <h3>Nuru Yangu CBO Website</h3>
+                    <p>A professional web presence for a community-based organization. Showcases their mission, ongoing projects, and community impact.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
                 </div>
             </div>
 
@@ -266,21 +294,29 @@
                 <div class="project-image">
                     <img src="tb.png" alt="Tubonge Uwazi Community Initiative Website">
                 </div>
-                <h3>Tubonge Uwazi Community Initiative</h3>
-                <p>A comprehensive web platform for Tubonge Uwazi, a registered community-based organization committed to empowering parents, youth, and the wider community in Homabay County. Features an engaging interface showcasing their mission for inclusive voices and sustainable futures.</p>
-                <div class="project-tech">
-                    <span class="tech-badge">HTML5</span>
-                    <span class="tech-badge">CSS3</span>
-                    <span class="tech-badge">JavaScript</span>
-                    <span class="tech-badge">Responsive Design</span>
+                <div class="project-content">
+                    <h3>Tubonge Uwazi Community Initiative</h3>
+                    <p>A comprehensive web platform for a registered community-based organization committed to empowering parents, youth, and the wider community.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
                 </div>
-                <div class="project-links">
-                    <a href="https://github.com/Arishaba-Peruth" class="project-link" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="https://arishaba-peruth.github.io/TUCI_CBO/" class="project-link" target="_blank">
-                        <i class="fas fa-external-link-alt"></i> Live Demo
-                    </a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Karibu.png" alt="Karibu Groceries Inventory System">
+                </div>
+                <div class="project-content">
+                    <h3>Karibu Groceries</h3>
+                    <p>An inventory and management system built to manage stock, sales, and business operations for Karibu Groceries.</p>
+                    <div class="project-tech">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Django</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -288,21 +324,70 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2 class="section-title">Get in Touch</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:your.email@example.com">lorisperutha@gmail.com</a>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-subtitle">Open to remote and on-site opportunities. Ready to bring your ideas to life? Let's connect!</p>
+        <div class="contact-container">
+            <div class="contact-info-column">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:lorisperutha@gmail.com">lorisperutha@gmail.com</a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/peruth-arishaba-19a3082b3/" target="_blank">LinkedIn</a>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/256761423217" target="_blank">+256 761 423 217</a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/Arishaba-Peruth" target="_blank">GitHub</a>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/peruth-arishaba-19a3082b3/" target="_blank">Peruth Arishaba</a>
+                    </div>
                 </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Arishaba-Peruth" target="_blank">Arishaba-Peruth</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-column">
+                <form class="contact-form" action="https://formspree.io/f/xdalnrkr" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
             </div>
         </div>
     </section>
