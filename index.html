@@ -370,7 +370,11 @@
             </div>
             
             <div class="contact-form-column">
-                <form class="contact-form" action="https://formspree.io/f/xdalnrkr" method="POST">
+                <div id="form-success-message" class="form-success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Thank you! Your message has been sent successfully.</p>
+                </div>
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/xdalnrkr" method="POST">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required>
                     </div>
@@ -468,6 +472,47 @@
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(el);
         });
+
+        // Contact form submission handler
+        const contactForm = document.getElementById('contact-form');
+        const successMessage = document.getElementById('form-success-message');
+
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                
+                const formData = new FormData(contactForm);
+                
+                try {
+                    const response = await fetch(contactForm.action, {
+                        method: 'POST',
+                        body: formData,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    });
+                    
+                    if (response.ok) {
+                        // Show success message
+                        successMessage.style.display = 'flex';
+                        contactForm.style.display = 'none';
+                        
+                        // Reset form
+                        contactForm.reset();
+                        
+                        // Hide success message and show form again after 5 seconds
+                        setTimeout(() => {
+                            successMessage.style.display = 'none';
+                            contactForm.style.display = 'flex';
+                        }, 5000);
+                    } else {
+                        alert('Oops! There was a problem submitting your form. Please try again.');
+                    }
+                } catch (error) {
+                    alert('Oops! There was a problem submitting your form. Please try again.');
+                }
+            });
+        }
     </script>
 </body>
 </html>

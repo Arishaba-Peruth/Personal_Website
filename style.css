@@ -933,8 +933,8 @@ section {
 
 .skill-card {
     background: rgba(255, 255, 255, 0.05);
-    padding: 2.5rem 2rem;
-    border-radius: 20px;
+    padding: 1.8rem 1.5rem;
+    border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: all 0.4s ease;
@@ -967,21 +967,21 @@ section {
 }
 
 .skill-card i {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     background: linear-gradient(45deg, #4facfe 0%, #00f2fe 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     position: relative;
     z-index: 2;
     filter: drop-shadow(0 2px 4px rgba(79, 172, 254, 0.3));
 }
 
 .skill-card h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: relative;
     z-index: 2;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -989,7 +989,7 @@ section {
 
 .skill-card p {
     color: rgba(255, 255, 255, 0.85);
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     position: relative;
     z-index: 2;
     line-height: 1.6;
@@ -1305,6 +1305,49 @@ section {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
+}
+
+.form-success-message {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.form-success-message i {
+    font-size: 4rem;
+    color: #4facfe;
+    animation: scaleIn 0.5s ease;
+}
+
+.form-success-message p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .contact-form {
